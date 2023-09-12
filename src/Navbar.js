@@ -1,10 +1,11 @@
 function Navbar() {
     return ( 
         <nav className='navbar'> 
-            <h1>NAV</h1>
+            <h1>My First React Page</h1>
             <div className='links'>
                 <a href="/">Home</a>
-                <a href="/contact"></a>
+                <a href="/create">New Blog</a>
+                <a href="/contact">Contact</a>
             </div>
         </nav>
     );
